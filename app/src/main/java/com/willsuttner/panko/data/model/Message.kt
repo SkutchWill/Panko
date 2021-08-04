@@ -1,4 +1,6 @@
 package com.willsuttner.panko.data.model
 
-class Message {
-}
+data class Message(
+    val author: String,
+    val body: String
+    )
